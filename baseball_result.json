@@ -1,0 +1,131 @@
+{
+  "success": 1,
+  "results": [
+    {
+      "id": "9718427",
+      "sport_id": "16",
+      "time": "1746117300",
+      "time_status": "3",
+      "league": { "id": "225", "name": "MLB", "cc": "us" },
+      "home": {
+        "id": "1368",
+        "name": "CHI Cubs",
+        "image_id": "3627",
+        "cc": "us"
+      },
+      "away": {
+        "id": "1186",
+        "name": "PIT Pirates",
+        "image_id": "3637",
+        "cc": "us"
+      },
+      "ss": "8-3",
+      "scores": {
+        "1": { "home": "0", "away": "1" },
+        "2": { "home": "0", "away": "0" },
+        "3": { "home": "0", "away": "1" },
+        "4": { "home": "0", "away": "0" },
+        "5": { "home": "3", "away": "0" },
+        "6": { "home": "0", "away": "0" },
+        "7": { "home": "2", "away": "0" },
+        "8": { "home": "0", "away": "1" },
+        "9": { "home": "3", "away": "0" },
+        "hit": { "home": "11", "away": "5" },
+        "run": { "home": "8", "away": "3" }
+      },
+      "events": [
+        {
+          "id": "241513546",
+          "text": "End of CHI Cubs 1st, 1 hit, 0 runs, Game tied 0-0"
+        },
+        { "id": "241514419", "text": "Solo HR by B Reynolds (PIT Pirates)" },
+        {
+          "id": "241515005",
+          "text": "End of PIT Pirates 1st, 1 hit, 1 run, PIT Pirates lead 0-1"
+        },
+        {
+          "id": "241518404",
+          "text": "End of CHI Cubs 2nd, 0 hits, 0 runs, PIT Pirates lead 0-1"
+        },
+        {
+          "id": "241520873",
+          "text": "End of PIT Pirates 2nd, 1 hits, 0 run, PIT Pirates lead 0-1"
+        },
+        {
+          "id": "241524575",
+          "text": "End of CHI Cubs 3rd, 0 hits, 0 runs, PIT Pirates lead 0-1"
+        },
+        {
+          "id": "241527076",
+          "text": "End of PIT Pirates 3rd, 1 hit, 1 run, PIT Pirates lead 0-2"
+        },
+        {
+          "id": "241529627",
+          "text": "End of CHI Cubs 4th, 0 hits, 0 runs, PIT Pirates lead 0-2"
+        },
+        {
+          "id": "241531752",
+          "text": "End of PIT Pirates 4th, 0 hits, 0 runs, PIT Pirates lead 0-2"
+        },
+        { "id": "241533203", "text": "Solo HR by D Swanson (CHI Cubs)" },
+        { "id": "241534900", "text": "Solo HR by K Tucker (CHI Cubs)" },
+        { "id": "241535631", "text": "Solo HR by S Suzuki (CHI Cubs)" },
+        {
+          "id": "241538270",
+          "text": "End of CHI Cubs 5th, 4 hits, 3 runs, CHI Cubs lead 3-2"
+        },
+        {
+          "id": "241539797",
+          "text": "End of PIT Pirates 5th, 0 hits, 0 runs, CHI Cubs lead 3-2"
+        },
+        {
+          "id": "241540601",
+          "text": "End of CHI Cubs 6th, 0 hits, 0 runs, CHI Cubs lead 3-2"
+        },
+        {
+          "id": "241541704",
+          "text": "End of PIT Pirates 6th, 1 hit, 0 runs, CHI Cubs lead 3-2"
+        },
+        { "id": "241544254", "text": "2-run HR by S Suzuki (CHI Cubs)" },
+        {
+          "id": "241544491",
+          "text": "End of CHI Cubs 7th, 2 hits, 2 runs, CHI Cubs lead 5-2"
+        },
+        {
+          "id": "241545308",
+          "text": "End of PIT Pirates 7th, 0 hits, 0 runs, CHI Cubs lead 5-2"
+        },
+        {
+          "id": "241546319",
+          "text": "End of CHI Cubs 8th, 0 hits, 0 runs, CHI Cubs lead 5-2"
+        },
+        {
+          "id": "241548023",
+          "text": "End of PIT Pirates 8th, 1 hit, 1 run, CHI Cubs lead 5-3"
+        },
+        {
+          "id": "241549193",
+          "text": "End of CHI Cubs 9th, 4 hits, 3 runs, CHI Cubs lead 8-3"
+        }
+      ],
+      "extra": {
+        "home_pos": "7",
+        "away_pos": "28",
+        "numberofperiods": "9",
+        "stadium_data": {
+          "id": "8085",
+          "name": "PNC Park",
+          "city": "Pittsburgh, PA",
+          "country": "USA",
+          "capacity": "38753",
+          "googlecoords": "40.4471507,-80.0064087"
+        }
+      },
+      "has_lineup": 1,
+      "inplay_created_at": "1746116653",
+      "inplay_updated_at": "1746126621",
+      "confirmed_at": "1746127012",
+      "bet365_id": "173925264"
+    }
+  ]
+}
