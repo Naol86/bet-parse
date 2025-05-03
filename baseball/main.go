@@ -183,14 +183,14 @@ func evaluateDoubleChance(home, away int, selection string) string {
 
 func main() {
 	// Load pre-match data
-	preMatch, err := ReadPreMatchData("table_tennis_prematch.json")
+	preMatch, err := ReadPreMatchData("baseball_prematch.json")
 	if err != nil {
 		fmt.Println("Error reading pre-match data:", err)
 		return
 	}
 
 	// Load post-match data
-	postMatch, err := ReadPostMatchData("table_tennis_result.json")
+	postMatch, err := ReadPostMatchData("baseball_result.json")
 	if err != nil {
 		fmt.Println("Error reading post-match data:", err)
 		return
@@ -213,10 +213,10 @@ func main() {
 		// Evaluate 1X2 using final score
 		fmt.Println("\n--- 1X2 Evaluation ---")
 		selection1X2 := "2" // Sample selection: "1" = Home win, "2" = Away win, "Draw"
-		selectionOUGoals := "Under"  // Over goals
-		ouLine := 2.5               // line
-		correctScore := "2-3"      // exact score
-		doubleChance := "12"      // double chance
+		selectionOUGoals := "Under"// Over goals
+		ouLine := 2.5// line
+		correctScore := "2-3"// exact score
+		doubleChance := "12"// double chance
 
 		parts := strings.Split(post.SS, "-")
 		if len(parts) == 2 {
