@@ -57,7 +57,7 @@ type League struct {
 type Team struct {
 	ID      string `json:"id"`
 	Name    string `json:"name"`
-	ImageID int    `json:"image_id"`
+	ImageID string `json:"image_id"` // ✅ correct
 	CC      string `json:"cc"`
 }
 
